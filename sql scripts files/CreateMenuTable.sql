@@ -1,0 +1,5 @@
+CREATE TABLE Menus (
+	ID INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
+	Name TEXT,
+    	Image VARCHAR,
+);

@@ -1,0 +1,11 @@
+SET IDENTITY_INSERT [dbo].[SubMenus] ON
+INSERT INTO [dbo].[SubMenus] ([SubMenuId], [Name], [Description], [Price], [Image], [Menu_Id]) VALUES (1, N'Cappuccino', N'A cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally prepared with double espresso, and steamed milk foam.', N'10 USD', N'https://s15.postimg.cc/gs8p61egb/cappuccino.jpg', 1)
+INSERT INTO [dbo].[SubMenus] ([SubMenuId], [Name], [Description], [Price], [Image], [Menu_Id]) VALUES (2, N'Americano', N'Caffè Americano is a type of coffee prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from traditionally brewed coffee.', N'10 USD', N'https://s15.postimg.cc/nvgklnc63/americano.jpg', 1)
+INSERT INTO [dbo].[SubMenus] ([SubMenuId], [Name], [Description], [Price], [Image], [Menu_Id]) VALUES (3, N'Mocha', N'A caffè mocha, also called mocaccino, is a chocolate-flavored variant of a caffè latte. Other commonly used spellings are mochaccino and also mochachino.', N'15 USD', N'https://s15.postimg.cc/dle5mfh5n/mocha.jpg', 1)
+INSERT INTO [dbo].[SubMenus] ([SubMenuId], [Name], [Description], [Price], [Image], [Menu_Id]) VALUES (4, N'Green Tea', N'Green tea is a type of tea that is made from Camellia sinensis leaves that have not undergone the same withering and oxidation process used to make oolong teas and black teas.', N'10 USD', N'https://i.imgur.com/LmUJk2V.jpg
+', 2)
+INSERT INTO [dbo].[SubMenus] ([SubMenuId], [Name], [Description], [Price], [Image], [Menu_Id]) VALUES (5, N'Black Tea', N'Black tea is a type of tea that is more oxidized than oolong, green, and white teas.', N'10 USD', N'https://i.imgur.com/aNp2kUe.jpg
+', 2)
+INSERT INTO [dbo].[SubMenus] ([SubMenuId], [Name], [Description], [Price], [Image], [Menu_Id]) VALUES (6, N'Apple Juice', N'Apple juice is a fruit juice made by the maceration and pressing of an apple.', N'15 USD', N'https://i.imgur.com/cKMstjY.jpg', 3)
+INSERT INTO [dbo].[SubMenus] ([SubMenuId], [Name], [Description], [Price], [Image], [Menu_Id]) VALUES (7, N'Orange Juice', N'Orange juice is the liquid extract of the orange tree fruit, produced by squeezing oranges.', N'20 USD', N'https://i.imgur.com/PC6f3Dc.jpg', 3)
+SET IDENTITY_INSERT [dbo].[SubMenus] OFF
